@@ -36,16 +36,16 @@ a, button {
     background-position: center;
 }
 
-#rooms .bg-gray-300:nth-child(1) {
-    background-image: url('https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+#rooms .grid > div:nth-child(1) .bg-gray-300 {
+    background-image: url('../../images_m/deluxe_suite.jpg');
 }
 
-#rooms .bg-gray-300:nth-child(2) {
-    background-image: url('https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+#rooms .grid > div:nth-child(2) .bg-gray-300 {
+    background-image: url('../../images_m/executive_room.jpg');
 }
 
-#rooms .bg-gray-300:nth-child(3) {
-    background-image: url('https://images.unsplash.com/photo-1591088398332-8a7791972843?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+#rooms .grid > div:nth-child(3) .bg-gray-300 {
+    background-image: url('../../images_m/presidential_suite.jpeg');
 }
 
 /* Responsive Navigation */
